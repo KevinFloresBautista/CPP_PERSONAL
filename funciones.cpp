@@ -42,3 +42,10 @@ int buscar(int arr[], int len, int v)
     cout << "error: " << -1 << endl;
     return posicion = -1;
 };
+
+void eliminar(int arr[], int& len, int pos){
+    for(int i=pos;i<len;i++){
+        arr[i]=arr[i+1];
+        
+    }
+}
