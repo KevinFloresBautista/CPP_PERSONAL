@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-
+    int a = 0;
     int n, len, valor, valorBuscar;
     n = 4;
     len = 2;
